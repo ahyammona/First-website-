@@ -1,0 +1,120 @@
+*{
+    width:100%;
+    overflow: hidden;
+}
+
+.service{  
+ font-family: 'muli',Roboto, "Helvetica Neue", sans-serif;
+ width: 100%;
+ overflow: auto;
+}
+
+ h2{
+    position: relative;
+    font-family: 'muli',Roboto, "Helvetica Neue", sans-serif;
+    font-size: 30px;
+    font-variant: small-caps;
+    font-weight: 700px;
+    text-align: center;
+    overflow-x: hidden;
+    letter-spacing: 3px;
+    word-spacing: .2em;
+    
+}
+/*.service h2::after{
+    content: "";
+    width: 10px;
+    background: #333;
+    height: 50px;
+    position: absolute;
+    display: flex;
+    left: 6px;
+    margin-right: 6px;
+    justify-content: left;
+    align-items: left;
+    border: 2px solid red;
+}*/
+.service p{
+    width: 80%;
+    text-align: left;
+    float: left;
+    margin-top: -15px;
+    margin-left: 5px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    word-spacing: .1em;
+}
+.service h3{
+    font-variant: small-caps;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left:8px;
+}
+.section{
+    display: grid;
+    width: 100%;
+  }
+.develop{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}  
+.construction{
+    height: 90%;
+    border-radius: 15px;
+    box-shadow:
+    rgba(0,0,0,0.247059) 0px 4px 5px,
+    rgba(0,0,0,0.117647)0px -2px 3px,
+    rgba(0,0,0,0.117647)0px 4px 6px,
+    rgba(0,0,0,0.168627)0px 12px 13px,
+    rgba(0,0,0,0.09091961)0px -3px 5px;
+}
+#header{
+    width: 95%;
+    margin-right: -15px;
+    height: fit-content;
+    border-radius: 15px;
+    margin: 20px auto;
+
+}
+.interlocks{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.img-interlocks{
+    height: 70%;
+    box-shadow:
+    rgba(0,0,0,0.247059) 0px 4px 5px,
+    rgba(0,0,0,0.117647)0px -2px 3px,
+    rgba(0,0,0,0.117647)0px 4px 6px,
+    rgba(0,0,0,0.168627)0px 12px 13px,
+    rgba(0,0,0,0.09091961)0px -3px 5px;
+    border-radius: 15px;
+    margin-top: 60px;
+    float: right;
+}
+#header2{
+    width: 95%;
+    margin-right: -15px;
+    height: fit-content;
+    border-radius: 15px;
+    margin: 40px auto;
+    float: right;
+  
+}
+#header3{
+    width: 95%;
+    margin-right: -15px;
+    height: fit-content;
+    border-radius: 15px;
+    margin: 40px auto;
+    float: right;
+}
+.consultancy{
+    border-radius: 15px;
+    box-shadow:
+    rgba(0,0,0,0.247059) 0px 4px 5px,
+    rgba(0,0,0,0.117647)0px -2px 3px,
+    rgba(0,0,0,0.117647)0px 4px 6px,
+    rgba(0,0,0,0.168627)0px 12px 13px,
+    rgba(0,0,0,0.09091961)0px -3px 5px;
+}

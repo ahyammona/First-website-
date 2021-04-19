@@ -1,0 +1,25 @@
+ <!-- for mobile view -->
+<div id="nav-pc" class="nav">
+    <nav>
+      <div id="ham-id" class="ham">
+        <div class="menu-btn_burger_line1"></div>
+          <div class="menu-btn_burger_line2"></div>
+         <div class="menu-btn_burger_line3"></div>
+      </div>
+       <ul id="menu-pc" class="menu-btn">    
+        <li>
+         <a routerLink="/home"  aria-disabled="false">Home</a>
+          <a routerLink="/services">Services</a>
+           <a routerLink="/gallery" >Gallery</a>
+          <a routerLink="/contact">Contact </a>
+          </li>
+        </ul>
+    </nav>
+     </div>
+    <div id="content-view"  class="content-area">
+       <router-outlet></router-outlet>
+    </div>
+    <div id="for-mobile-view" class="footer">
+      <p>share/like us on</p>
+    <app-footer></app-footer>
+   </div>
