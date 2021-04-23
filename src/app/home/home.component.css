@@ -61,9 +61,9 @@
 #p1{
     margin-left: -50%;
 }
-.section{
+.section,#section{
     width: 100%;
-    height: fit-content;
+
     grid-template-rows: repeat(3,1fr);
   }
 .mobile{
@@ -111,7 +111,7 @@
     margin-left: 10%;
   
 }
-.call button{
+button{
     cursor: pointer;
     border: none;
     display: flex;
@@ -126,7 +126,7 @@
     width: 45%;
     height: 51px;
 }
-.call button:hover {
+ button:hover {
   background-color: #eee;
   box-shadow:
    rgba(0,0,0,0.247059) 0px 4px 5px,
@@ -144,7 +144,7 @@ button:disabled {
 button:focus{
   outline: none;
 }
-.call button #inner-btn{
+ button #inner-btn{
     display: flex;
     justify-content: center;
     border: none;
@@ -159,11 +159,11 @@ button:focus{
     width: 80px;
     height: 50px;
 }
-.call button #inner-btn:hover{
+ button #inner-btn:hover{
     background: #111;
     transition: 2s;
 }
-.call button #inner-btn #p{
+ button #inner-btn #p{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,7 +175,7 @@ button:focus{
     background: #111;
     width: 60px;
 }
-.call button #inner-btn #p:hover{
+ button #inner-btn #p:hover{
     background: #fff;
     color: #111;
     transition: 2s;
