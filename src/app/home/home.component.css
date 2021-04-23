@@ -51,7 +51,6 @@
 }
 .section{
     width: 100%;
-    grid-template-rows: repeat(3,1fr);
   }
 .mobile{
     display: grid;
