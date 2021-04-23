@@ -63,13 +63,13 @@
 }
 .section,#section{
     width: 100%;
-
-    grid-template-rows: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr)
+    
   }
 .mobile{
     display: grid;
     margin-left: 33px;
-    height: auto;
+    height: 30px;
     grid-template-columns: 3fr 2fr;
     margin-top: 55%;
 }  
