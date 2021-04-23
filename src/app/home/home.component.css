@@ -7,7 +7,7 @@
 .home-area{  
  font-family: 'muli',Roboto, "Helvetica Neue", sans-serif;
  width: 100%;
- overflow: auto;
+ overflow: hidden;
 }
 
  h2{
