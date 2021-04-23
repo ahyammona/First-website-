@@ -64,13 +64,14 @@
 }
 .section,#section{
     width: 100%;
-    height: fit-content;
+    overflow: hidden;
+    height:1500px;
     grid-template-rows: repeat(3,1fr)
   }
 .mobile{
     display: grid;
     margin-left: 33px;
-    height: 30px;
+    height: auto;
     grid-template-columns: 3fr 2fr;
     margin-top: 55%;
 }  
