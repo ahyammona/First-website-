@@ -64,8 +64,6 @@
 }
 .section,#section{
     width: 100%;
-    overflow: hidden;
-    height: auto;
     grid-template-rows: repeat(3,1fr)
   }
 .mobile{
