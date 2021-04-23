@@ -20,6 +20,7 @@
 .home-area{  
  font-family: 'muli',Roboto, "Helvetica Neue", sans-serif;
  width: 100%;
+ height: max-content;
  overflow: auto;
 }
 
@@ -64,7 +65,6 @@
 .section,#section{
     width: 100%;
     grid-template-rows: repeat(3,1fr)
-    
   }
 .mobile{
     display: grid;
